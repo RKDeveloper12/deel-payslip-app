@@ -1,4 +1,4 @@
-# React Ionic Capacitor Project
+# React Ionic Capacitor Payslips App Project
 
 This project is a mobile application built with React, Ionic Framework, and Capacitor. It offers cross-platform capabilities for both iOS and Android.
 
@@ -29,5 +29,38 @@ For Android development:
 1. **Clone the Repository**
 
 ```bash
-git clone https://yourprojectrepository.git
-cd yourprojectdirectory
+git clone https://github.com/RKDeveloper12/deel-payslip-app
+cd deel-payslip-app
+npm install
+```
+
+### Running the App
+You can start the development server to run your app in the browser:
+
+```bash
+ionic serve
+```
+
+### Build the App for Development
+Before running the app on a device or emulator, build your Ionic project:
+
+```bash
+ionic build
+```
+### Open the App on iOS
+
+Open the iOS project in Xcode:
+
+```bash
+npx cap open ios
+```
+
+From Xcode, run the app on a connected device or simulator.
+
+### Open the App on Android
+
+Open the Android project in Android Studio:
+```bash
+npx cap open android
+```
+From Android Studio, run the app on a connected device or emulator.
